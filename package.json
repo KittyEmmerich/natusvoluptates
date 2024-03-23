@@ -1,0 +1,50 @@
+{
+  "name": "natusvoluptates",
+  "version": "1.0.0",
+  "description": "Simple CLI app to fetch the latest multiple crypto token prices in various currencies",
+  "main": "index.js",
+  "bin": {
+    "tokenprice": "index.js"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@lib": "lib",
+    "@helpers": "helpers",
+    "@utils": "utils"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KittyEmmerich/natusvoluptates.git"
+  },
+  "keywords": [
+    "et",
+    "crypto",
+    "qui",
+    "exchange",
+    "mollitia",
+    "terminal",
+    "bitcoin",
+    "btc",
+    "minima",
+    "eth",
+    "iusto",
+    "beatae"
+  ],
+  "author": "AustinGraham",
+  "license": "MIT",
+  "homepage": "https://github.com/KittyEmmerich/natusvoluptates.git",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "module-alias": "^2.2.2",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
